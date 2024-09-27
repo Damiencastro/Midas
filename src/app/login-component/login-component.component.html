@@ -1,0 +1,10 @@
+<link rel="stylesheet" type="text/css" href="/login-component/login-component.component.css" />
+<div class="loginDiv">
+
+
+    <h1 class="header">Login</h1>
+    <input class="usernameInputField" type="text" [(ngModel)]="username" />
+    <br>
+    <input class="passwordInputField" type="text" [(ngModel)]="password" />
+    <button class="submitButton" (click)="attemptAuth()"></button>
+</div>

@@ -1,0 +1,44 @@
+
+
+.loginDiv {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    height: 40vh;
+    border: 3px solid #000000;
+    
+}
+
+.usernameInputField{
+    position: absolute; 
+    top: 15vh;
+    width: 75%;
+    height: 7%;
+    justify-items: center;
+    margin: auto;
+    left: 7vw;
+}
+
+.passwordInputField{
+    position: absolute; 
+    top: 25vh;
+    width: 75%;
+    height: 7%;
+    justify-items: center;
+    margin: auto;
+    left: 7vw;
+}
+
+.header{
+    text-align: center;
+}
+
+.submitButton{
+    position:absolute;
+    left: 75%;
+    bottom: 10%;
+    height:5%;
+    width:15%;
+}

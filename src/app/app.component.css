@@ -1,0 +1,15 @@
+main{
+    height:100vh;
+    width:100vw;
+}
+
+.navigation{
+    position:absolute;
+    border: 2px;
+    top: 10px;
+    left: 10px;
+}
+
+.content{
+    align-content: center;
+}
